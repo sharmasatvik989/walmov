@@ -189,7 +189,7 @@ class BookingTheatre:   # Linked List to find the correct row and seats
 
 if __name__ == '__main__':
     try:
-        FilePath='/Users/satviksharma457989/Desktop/walint/InputFile.txt'
+        FilePath= sys.argv[1]
     except FileNotFoundError as err:
         print(err)
     data = inputParser(FilePath)
