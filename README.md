@@ -37,8 +37,8 @@ Approach to the implement the solution:
 
  Program Files: 
  
- 1. InputFileMaker.py: Uses random library to generate random reservation requests.
- 2. InputFileParser.py: Parse the given input file of above format into list of reservations
+ 1. valuesgen.py: Uses random library to generate random reservation requests.
+ 2. parser.py: Parse the given input file of above format into list of reservations
  3. greedySeatAllocation: Uses greedy approach to allocate seats.
 
 
